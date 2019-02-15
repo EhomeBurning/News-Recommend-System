@@ -1,3 +1,4 @@
 # News-Recommend-System
 
-## News api 
+## Required Packages
+MongoDB,
