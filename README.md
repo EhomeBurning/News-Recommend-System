@@ -12,6 +12,13 @@ requests
 scipy
 sklearn <br>
 
+## Front-end
+public/index.html: "root"
+src/index.js: index in "root"
+
+npm install --save materialize-css
+
+
 ## Data Pipeline
 
 1. Monitor: Get the latest news URL from websites such as cnn, bbc-news, bbc-sport, bloomberg, techcrunch and so on. The latest news URLs will be sent to RabbitMQ and wait for the next step. This monitor script is built based on News API. Our monitor stop running every ten seconds to avoid being blocked. <br>
@@ -22,3 +29,5 @@ sklearn <br>
 chmod +x pipeline_launcher.sh <br>
 sudo ./pipeline_launcher.sh <br>
 hit enter to stop <br>
+
+mongoexport --db top-news --collection news --out news.csv
