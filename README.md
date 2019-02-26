@@ -11,6 +11,8 @@ redis
 requests
 scipy
 sklearn <br>
+express-generator
+materialize-css
 
 ## Front-end
 public/index.html: "root"

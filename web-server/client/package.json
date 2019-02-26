@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
+    "express-generator": "^4.16.0",
+    "lodash": "^4.17.11",
+    "node": "^11.10.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
@@ -23,6 +27,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "ts-pnp": "^1.0.1"
+    "add": "^2.0.6",
+    "ts-pnp": "^1.0.1",
+    "yarn": "^1.13.0"
   }
 }
