@@ -38,7 +38,6 @@ hit enter to stop <br>
 
 mongoexport --db top-news --collection news --out news.csv
 
+##
+<img src="data/presentation/sample.png" alt="" style="width: 700px;"/>
 
-## Linux
-yarn
-brew
